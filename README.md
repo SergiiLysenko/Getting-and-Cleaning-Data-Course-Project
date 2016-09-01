@@ -24,7 +24,10 @@
 ##What you find in this repository
 
 CodeBook.md: information about raw and tidy data set
+
 README.md: this file
+
 run_analysis.R: R script to transform raw data set in a tidy one
+
 tidydata.txt : file with the tidy data set
 
