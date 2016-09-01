@@ -31,3 +31,8 @@ run_analysis.R: R script to transform raw data set in a tidy one
 
 tidydata.txt : file with the tidy data set
 
+##How to create the tidy data set ?
+
+Source run_analisys.R script (it requires the plyr package): source('run_analysis.R')
+
+
