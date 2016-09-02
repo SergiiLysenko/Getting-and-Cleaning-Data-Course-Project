@@ -1,14 +1,14 @@
 # Get the data
 
-#fileUrl <-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+fileUrl <-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 
-#if(!file.exists("./data")){dir.create("./data")}
-#fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-#download.file(fileUrl,destfile="./data/Dataset.zip")
+if(!file.exists("./data")){dir.create("./data")}
+fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+download.file(fileUrl,destfile="./data/Dataset.zip")
 
 #Unzip the file and get list of files
 
-# unzip(zipfile="./data/Dataset.zip",exdir="./data")
+ unzip(zipfile="./data/Dataset.zip",exdir="./data")
 
 
 path_rf <- file.path("./data" , "UCI HAR Dataset")
